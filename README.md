@@ -198,32 +198,6 @@ sns.kdeplot(data=df,x="total_bill",hue="time",multiple="stack",linewidth=3,palet
 ```
 ![image](https://github.com/user-attachments/assets/443ae645-dce4-4533-bfb6-6b63feac5c85)
 ```
-mart=pd.read_csv("")
-mart
-```
-```
-mart=mart[['Gender','Payment','Unit price','Quantity','Total','gross income']]
-mart.head()
-```
-```
-sns.kdeplot(data=mart,x='Total')
-```
-```
-sns.kdeplot(data=mart,x='Unit price')
-```
-```
-sns.kdeplot(data=mart)
-```
-```
-sns.kdeplot(data=mart,x='Total',hue='Payment',multiple='stack')
-```
-```
-sns.kdeplot(data=mart,x='Total',hue='Payment',multiple='stack',linewidth=5,palette='Dark2',alpha=0.5)
-```
-```
-sns.kdeplot(data=mart,x='Unit price',y='gross income')
-```
-```
 data=np.random.randint(low=1,high=100,size=(10,10))
 print("The data to be plotted:\n")
 print(data)
